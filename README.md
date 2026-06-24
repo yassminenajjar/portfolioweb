@@ -2,7 +2,7 @@
 
 # 🌸 Yasmine's Portfolio 🌸
 
-### AI & Cloud Engineering Student | React Developer
+### AI & Cloud Engineering Student 
 
 <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=25&pause=1000&color=FF69B4&center=true&vCenter=true&width=500&lines=Welcome+to+my+Portfolio!;AI+%26+Cloud+Enthusiast;React+Developer;Always+Learning+New+Technologies" />
 
