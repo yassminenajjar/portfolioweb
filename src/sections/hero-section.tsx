@@ -103,16 +103,16 @@ export function HeroSection() {
         {/* Badge pill */}
         <Reveal>
           <div
-            className="inline-flex items-center gap-2 rounded-full border px-5 py-2 text-xs font-bold uppercase tracking-[0.26em]"
+            className="inline-flex items-center gap-2 rounded-full border px-5 py-2 text-[0.68rem] font-semibold uppercase tracking-[0.3em] shadow-[0_10px_24px_rgba(107,16,48,0.08)]"
             style={{
-              borderColor: "rgba(160,80,100,0.3)",
-              background: "rgba(255,248,252,0.82)",
+              borderColor: "rgba(160,80,100,0.26)",
+              background: "linear-gradient(180deg, rgba(255,250,252,0.95), rgba(248,238,241,0.88))",
               color: "#6b1030",
-              backdropFilter: "blur(8px)",
+              backdropFilter: "blur(10px)",
             }}
           >
             <Sparkles className="h-3.5 w-3.5" />
-            Elite Future AI Engineer
+            Aspiring Cloud & AI Engineer
           </div>
         </Reveal>
 
@@ -137,12 +137,14 @@ export function HeroSection() {
 
         {/* Quote */}
         <Reveal delay={0.19}>
-          <p
-            className="max-w-2xl text-xl leading-9 italic"
-            style={{ color: "#6b1030" }}
-          >
-            &quot;Designing intelligent systems that transform complex challenges into impactful digital solutions.&quot;
-          </p>
+          <div className="max-w-3xl rounded-[2rem] border border-rose-200/50 bg-white/55 px-6 py-5 shadow-[0_18px_48px_rgba(107,16,48,0.08)] backdrop-blur-md sm:px-8 sm:py-6">
+            <p
+              className="mx-auto max-w-2xl text-lg leading-8 italic sm:text-xl sm:leading-9"
+              style={{ color: "#6b1030" }}
+            >
+              Computer Science student passionate about building scalable cloud applications and intelligent AI solutions.
+            </p>
+          </div>
         </Reveal>
 
         {/* CTA buttons */}
