@@ -17,7 +17,6 @@ export function SkillsSection() {
   return (
     <section id="skills" className="section-band">
       <div className="section-shell space-y-10">
-        {/* Heading */}
         <Reveal>
           <div className="eyebrow mb-2">04 — Skills</div>
           <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
@@ -28,7 +27,6 @@ export function SkillsSection() {
           </div>
         </Reveal>
 
-        {/* Cards grid */}
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {skillGroups.map((group, index) => {
             const Icon = icons[group.icon as keyof typeof icons];
@@ -41,20 +39,15 @@ export function SkillsSection() {
                 viewport={{ once: true, amount: 0.22 }}
                 transition={{ delay: index * 0.05 }}
               >
-                {/* Icon + title row */}
                 <div className="flex items-center gap-4 mb-5">
                   <div className="skill-icon-circle">
                     <Icon className="h-5 w-5" />
                   </div>
-                  <h3
-                    className="font-serif text-2xl font-semibold"
-                    style={{ color: "#5a0e25" }}
-                  >
+                  <h3 className="font-serif text-2xl font-semibold" style={{ color: "#5a0e25" }}>
                     {group.title}
                   </h3>
                 </div>
 
-                {/* Tags */}
                 <div className="flex flex-wrap gap-2">
                   {group.items.map((item) => (
                     <span key={item} className="tag-pill">

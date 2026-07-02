@@ -323,31 +323,48 @@ export const skillGroups: SkillGroup[] = [
     title: "AI & Generative AI",
     description: "Systems that think, retrieve and assist.",
     icon: "sparkles",
-    items: ["Generative AI", "LLMs", "Prompt Engineering", "LangChain", "AI Agents", "RAG", "Deep Learning", "Machine Learning"],
+    items: [
+      "Generative AI",
+      "Large Language Models (LLMs)",
+      "Prompt Engineering",
+      "AI Chatbots",
+      "AI Agents",
+      "Retrieval-Augmented Generation (RAG)",
+      "LangChain",
+      "Deep Learning",
+      "Machine Learning",
+      "Neural Networks",
+    ],
   },
   {
-    title: "Backend",
-    description: "Reliable service layers and APIs.",
-    icon: "server",
-    items: ["Flask", "Spring Boot", "Symfony", "Laravel"],
-  },
-  {
-    title: "Frontend",
-    description: "Interfaces with structure and restraint.",
-    icon: "monitor",
-    items: ["Angular", "React", "Vue.js", "Next.js", "TypeScript"],
-  },
-  {
-    title: "Databases",
+    title: "Database Management",
     description: "Structured data systems and query design.",
     icon: "database",
-    items: ["SQL Server", "MySQL", "PL/SQL"],
+    items: ["SQL", "Data Migration", "SQL Server", "MySQL", "PL/SQL", "Database Design", "Data Modeling"],
   },
   {
-    title: "Cloud & DevOps",
+    title: "Programming Languages",
+    description: "Core languages used across backend and product work.",
+    icon: "server",
+    items: ["Python", "Java", "JavaFX", "JavaScript", "TypeScript", "PHP", "C"],
+  },
+  {
+    title: "Web Development",
+    description: "Interfaces with structure and restraint.",
+    icon: "monitor",
+    items: ["Angular", "Symfony", "Laravel", "Spring Boot", "Flask", "React", "Vue.js", "Next.js", "HTML", "CSS", "Bootstrap"],
+  },
+  {
+    title: "Mobile Development",
+    description: "Mobile experiences and rapid app prototyping.",
+    icon: "cloud",
+    items: ["Flutter", "FlutterFlow"],
+  },
+  {
+    title: "Tools & Technologies",
     description: "Shipping, deployment and operational craft.",
     icon: "cloud",
-    items: ["Docker", "GitHub", "REST APIs", "Firebase"],
+    items: ["Git/GitHub", "Docker", "REST APIs", "Firebase"],
   },
 ];
 
@@ -389,11 +406,42 @@ export const education: Education[] = [
 
 export const beyondCode: Role[] = [
   {
-    title: "Graduation Ceremony Logistics Coordinator",
-    description: "Led the operational orchestration of a multi-hundred-attendee ceremony.",
+    title: "ISTIC Graduation Ceremony Coordinator",
+    description:
+      "Coordinated the events department for the first edition of ISTIC's graduation ceremony, a fully student-led celebration shaped through planning, teamwork and on-site execution.",
     details: [
-      "Coordinated arrival flow, stage timing and on-site communication across teams.",
-      "Kept the ceremony organized under pressure while preserving a premium guest experience.",
+      "Led the events team for ISTIC's first fully student-organized graduation ceremony.",
+      "Coordinated logistics, timing and on-site flow to keep the ceremony running smoothly.",
+    ],
+    media: [
+      {
+        type: "image",
+        src: "/istic-graduation/01.jpg",
+        alt: "ISTIC graduation ceremony event scene 1",
+        title: "Event Scene 1",
+        description: "Opening moment from ISTIC's first student-led graduation ceremony.",
+      },
+      {
+        type: "image",
+        src: "/istic-graduation/02.jpg",
+        alt: "ISTIC graduation ceremony event scene 2",
+        title: "Event Scene 2",
+        description: "Team coordination and ceremony flow during the graduation event.",
+      },
+      {
+        type: "image",
+        src: "/istic-graduation/03.jpg",
+        alt: "ISTIC graduation ceremony event scene 3",
+        title: "Event Scene 3",
+        description: "A moment from the celebration showing the scale of the event execution.",
+      },
+      {
+        type: "image",
+        src: "/istic-graduation/04.jpg",
+        alt: "ISTIC graduation ceremony event scene 4",
+        title: "Event Scene 4",
+        description: "Final photo in the sequence from the graduation ceremony coverage.",
+      },
     ],
   },
   {
