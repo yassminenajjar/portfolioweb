@@ -128,10 +128,10 @@ export function HeroSection() {
         {/* Specialties inline */}
         <Reveal delay={0.13}>
           <p
-            className="text-xs font-bold uppercase tracking-[0.34em]"
+            className="text-xs font-bold uppercase tracking-[0.34em] sm:text-[0.72rem]"
             style={{ color: "#8b4060" }}
           >
-            Software Engineering&nbsp;&nbsp;•&nbsp;&nbsp;AI &amp; Cloud Computing
+            Artificial Intelligence&nbsp;&nbsp;•&nbsp;&nbsp;Cloud Computing&nbsp;&nbsp;•&nbsp;&nbsp;Software Engineering
           </p>
         </Reveal>
 
@@ -142,7 +142,7 @@ export function HeroSection() {
               className="mx-auto max-w-2xl text-lg leading-8 italic sm:text-xl sm:leading-9"
               style={{ color: "#6b1030" }}
             >
-              Computer Science student passionate about building scalable cloud applications and intelligent AI solutions.
+              Computer Science student specializing in Cloud Computing and Artificial Intelligence, building scalable applications and intelligent systems through modern software engineering.
             </p>
           </div>
         </Reveal>

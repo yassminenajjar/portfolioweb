@@ -13,7 +13,9 @@ export function EducationSection() {
         <Reveal>
           <div className="eyebrow mb-2">07 — Education</div>
           <h2 className="section-title">
-            A chronological path, presented like a refined historical timeline.
+            The Foundation of
+            <br />
+            My Journey.
           </h2>
         </Reveal>
 

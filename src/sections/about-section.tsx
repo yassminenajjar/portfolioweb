@@ -15,9 +15,9 @@ export function AboutSection() {
         {/* Title */}
         <Reveal delay={0.06}>
           <h2 className="section-title mb-12">
-            A quiet obsession with
+            Engineering Beyond
             <br />
-            intelligent design.
+            Code.
           </h2>
         </Reveal>
 
@@ -66,7 +66,7 @@ export function AboutSection() {
             </div>
             <div className="mt-3 px-4 pb-1 text-center flex flex-col items-center justify-center">
               <span className="text-xs font-bold uppercase tracking-[0.2em]" style={{ color: "#8b4060" }}>
-                Academic Performance Report
+                Academic Performance
               </span>
               <span className="text-[10px] uppercase tracking-[0.1em] mt-1" style={{ color: "#a56684" }}>
                 Top of Class (3A56) • Principal Session
