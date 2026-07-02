@@ -86,16 +86,7 @@ function ProjectCarousel({ media }: { media: ProjectMedia[] }) {
         </AnimatePresence>
 
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#2c0a18]/70 to-transparent" />
-        <div className="absolute inset-x-0 bottom-0 p-4 sm:p-5">
-          <div className="max-w-3xl rounded-[1.5rem] border border-white/20 bg-[#2c0a18]/70 px-4 py-3 text-white backdrop-blur-md">
-            <div className="text-[0.68rem] font-bold uppercase tracking-[0.24em] text-rose-100/80">
-              {activeMedia.title}
-            </div>
-            <p className="mt-2 text-sm leading-relaxed text-rose-50/92">
-              {activeMedia.description}
-            </p>
-          </div>
-        </div>
+        
       </div>
 
       <div className="grid grid-cols-5 gap-2 sm:grid-cols-8 lg:grid-cols-10">
